@@ -12,9 +12,9 @@
 # 
 # docker build --build-arg BUILD_REPO=YourFork/PokemonGo-Bot --build-arg BUILD_BRANCH=6a4580f .
 
-FROM alpine
+FROM alpine:3.6
 
-ARG BUILD_REPO=PokemonGoF/PokemonGo-Bot
+ARG BUILD_REPO=garfieldwtf/PokemonGo-Bot
 ARG BUILD_BRANCH=master
 
 LABEL build_repo=$BUILD_REPO build_branch=$BUILD_BRANCH
